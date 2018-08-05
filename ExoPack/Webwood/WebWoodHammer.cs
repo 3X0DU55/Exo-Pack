@@ -32,7 +32,7 @@ namespace ExoPack.Webwood
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "WebWood", 8);
+			recipe.AddIngredient(null, "WebWoodPlac", 8);
 			recipe.AddTile(18);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

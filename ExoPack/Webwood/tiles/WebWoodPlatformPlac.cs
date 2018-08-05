@@ -27,7 +27,7 @@ namespace ExoPack.Webwood.tiles
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "WebWood");
+			recipe.AddIngredient(mod, "WebWoodPlac");
 			recipe.SetResult(this, 2);
 			recipe.AddRecipe();
 		}

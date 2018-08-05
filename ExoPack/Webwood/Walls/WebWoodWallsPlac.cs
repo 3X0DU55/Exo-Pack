@@ -1,6 +1,6 @@
 using Terraria.ModLoader;
 
-namespace ExoPack.WebWood.Walls
+namespace ExoPack.Webwood.Walls
 {
 	public class WebWoodWallsPlac : ModItem
 	{
@@ -27,7 +27,7 @@ namespace ExoPack.WebWood.Walls
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "WebWood");
+			recipe.AddIngredient(null, "WebWoodPlac");
 			recipe.AddTile(18);
 			recipe.SetResult(this, 4);
 			recipe.AddRecipe();

@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExoPack.WebWood.tiles
+namespace ExoPack.Webwood.tiles
 {
 	public class WebWoodWorkbenchPlac : ModItem
 	{
@@ -29,7 +29,7 @@ namespace ExoPack.WebWood.tiles
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(null, "WebWood", 10);
+			recipe.AddIngredient(null, "WebWoodPlac", 10);
 			recipe.SetResult(this);
 			recipe.AddRecipe();
 		}
