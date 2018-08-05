@@ -29,7 +29,7 @@ namespace ExoPack.Webwood.tiles
 			TileObjectData.addTile(Type);
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsDoor);
 			AddMapEntry(new Color(85, 68, 57));
-			drop = mod.ItemType("WebWoodPlatform");
+			drop = mod.ItemType("WebWoodPlatformPlac");
 			disableSmartCursor = true;
 			adjTiles = new int[]{ TileID.Platforms };
 		}

@@ -9,7 +9,7 @@ namespace ExoPack.Webwood.Walls
 		public override void SetDefaults()
 		{
 			Main.wallHouse[Type] = true;
-			drop = mod.ItemType("WebWoodWall");
+			drop = mod.ItemType("WebWoodWallPlac");
 			AddMapEntry(new Color(85, 68, 57));
 		}
 

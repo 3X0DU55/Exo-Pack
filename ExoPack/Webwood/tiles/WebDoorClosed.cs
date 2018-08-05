@@ -59,7 +59,7 @@ namespace ExoPack.Webwood.tiles
 
 		public override void KillMultiTile(int i, int j, int frameX, int frameY)
 		{
-			Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType("WebDoor"));
+			Item.NewItem(i * 16, j * 16, 16, 48, mod.ItemType("WebDoorPlac"));
 		}
 
 		public override void MouseOver(int i, int j)
@@ -67,7 +67,7 @@ namespace ExoPack.Webwood.tiles
 			Player player = Main.LocalPlayer;
 			player.noThrow = 2;
 			player.showItemIcon = true;
-			player.showItemIcon2 = mod.ItemType("WebDoor");
+			player.showItemIcon2 = mod.ItemType("WebDoorPlac");
 		}
 	}
 }

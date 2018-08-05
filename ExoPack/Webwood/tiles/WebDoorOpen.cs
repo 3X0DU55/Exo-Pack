@@ -78,7 +78,7 @@ namespace ExoPack.Webwood.tiles
 
 		public override void KillMultiTile(int i, int j, int frameX, int frameY)
 		{
-			Item.NewItem(i * 16, j * 16, 32, 48, mod.ItemType("WebDoor"));
+			Item.NewItem(i * 16, j * 16, 32, 48, mod.ItemType("WebDoorPlac"));
 		}
 
 		public override void MouseOver(int i, int j)
