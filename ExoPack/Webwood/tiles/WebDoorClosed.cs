@@ -6,7 +6,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExoPack.Tiles
+namespace ExoPack.Webwood.tiles
 {
 	// TODO: Smart Cursor Outlines and tModLoader support
 	public class WebDoorClosed : ModTile

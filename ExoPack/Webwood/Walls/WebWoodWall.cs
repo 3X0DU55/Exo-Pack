@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExoPack.Walls
+namespace ExoPack.Webwood.Walls
 {
 	public class WebWoodWall : ModWall
 	{

@@ -4,7 +4,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExoPack.Tiles
+namespace ExoPack.Webwood.tiles
 {
 	public class WebWoodPlatform : ModTile
 	{

@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExoPack.Items.Weapons
+namespace ExoPack.Webwood
 {
 	public class WebWoodBow : ModItem
 	{

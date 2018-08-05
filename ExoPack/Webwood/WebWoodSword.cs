@@ -1,7 +1,7 @@
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace ExoPack.Items.Weapons
+namespace ExoPack.Webwood
 {
 	public class WebWoodSword : ModItem
 	{

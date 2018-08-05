@@ -2,7 +2,7 @@ using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
 
-namespace ExoPack.Tiles
+namespace ExoPack.Webwood.tiles
 {
 	public class WebWood : ModTile
 	{

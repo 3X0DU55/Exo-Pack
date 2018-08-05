@@ -4,9 +4,9 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ObjectData;
 
-namespace ExoPack.Tiles
+namespace ExoPack.Webwood.tiles
 {
-	public class WebWoodWorkbench : ModTile
+	public class WebTable : ModTile
 	{
 		public override void SetDefaults()
 		{
@@ -15,15 +15,15 @@ namespace ExoPack.Tiles
 			Main.tileNoAttach[Type] = true;
 			Main.tileTable[Type] = true;
 			Main.tileLavaDeath[Type] = true;
-			TileObjectData.newTile.CopyFrom(TileObjectData.Style2x1);
+			TileObjectData.newTile.CopyFrom(TileObjectData.Style3x2);
 			TileObjectData.newTile.CoordinateHeights = new int[]{ 18 };
 			TileObjectData.addTile(Type);
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
 			ModTranslation name = CreateMapEntryName();
-			name.SetDefault("Web Wood Workbench");
+			name.SetDefault("Web Wood Table");
 			AddMapEntry(new Color(200, 200, 200), name);
 			disableSmartCursor = true;
-			adjTiles = new int[]{ TileID.WorkBenches };
+			adjTiles = new int[]{ TileID.Tables };
 		}
 
 		public override void NumDust(int i, int j, bool fail, ref int num)
@@ -33,7 +33,7 @@ namespace ExoPack.Tiles
 
 		public override void KillMultiTile(int i, int j, int frameX, int frameY)
 		{
-			Item.NewItem(i * 16, j * 16, 32, 16, mod.ItemType("WebWoodWorkbench"));
+			Item.NewItem(i * 16, j * 16, 32, 16, mod.ItemType("WebTable"));
 		}
 	}
 }
