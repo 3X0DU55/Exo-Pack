@@ -1,0 +1,3 @@
+author = Exoduss
+version = 0.0.1
+displayName = Exo Pack (Sciencemod remastered)

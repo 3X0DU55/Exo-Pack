@@ -1,0 +1,8 @@
+Science Mod finally makes it's new comeupance renamed Exo Pack as finally DrScienceGuy now rebranded as Exo has finally come back to his roots of taking hours to code and screwing it up royally
+I have banded a small team but everything added so far has been sprited by me (Hours of reteaching code aside), except for the crescent moon I do not remember who made it so please message me on discord (I presume you could find me on the spriters discord) and I will credit you
+V0.0.1
+7 New Weapons
+1 New Soul (Jungle)
+3 New Ores (Not worldspawned yet)
+3 New Bars (No uses yet)
+Anvil and Forge to go with the new ores, once again pointless now
