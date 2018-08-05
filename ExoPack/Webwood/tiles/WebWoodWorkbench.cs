@@ -21,7 +21,7 @@ namespace ExoPack.Webwood.tiles
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsTable);
 			ModTranslation name = CreateMapEntryName();
 			name.SetDefault("Web Wood Workbench");
-			AddMapEntry(new Color(200, 200, 200), name);
+			AddMapEntry(new Color(85, 68, 57), name);
 			disableSmartCursor = true;
 			adjTiles = new int[]{ TileID.WorkBenches };
 		}

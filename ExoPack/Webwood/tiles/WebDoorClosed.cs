@@ -41,7 +41,7 @@ namespace ExoPack.Webwood.tiles
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsDoor);
 			ModTranslation name = CreateMapEntryName();
 			name.SetDefault("Web Door");
-			AddMapEntry(new Color(200, 200, 200), name);
+			AddMapEntry(new Color(85, 68, 57), name);
 			disableSmartCursor = true;
 			adjTiles = new int[] { TileID.ClosedDoor };
 			openDoorID = mod.TileType("WebDoorOpen");

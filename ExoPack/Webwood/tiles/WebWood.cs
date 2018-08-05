@@ -11,7 +11,7 @@ namespace ExoPack.Webwood.tiles
 			Main.tileSolid[Type] = true;
 			Main.tileMergeDirt[Type] = true;
 			drop = mod.ItemType("WebWood");
-			AddMapEntry(new Color(0, 200, 0));
+			AddMapEntry(new Color(85, 68, 57));
 		}
 	}
 }

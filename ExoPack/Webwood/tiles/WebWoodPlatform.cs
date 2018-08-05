@@ -28,7 +28,7 @@ namespace ExoPack.Webwood.tiles
 			TileObjectData.newTile.LavaDeath = true;
 			TileObjectData.addTile(Type);
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsDoor);
-			AddMapEntry(new Color(200, 200, 200));
+			AddMapEntry(new Color(85, 68, 57));
 			drop = mod.ItemType("WebWoodPlatform");
 			disableSmartCursor = true;
 			adjTiles = new int[]{ TileID.Platforms };

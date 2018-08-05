@@ -27,7 +27,7 @@ namespace ExoPack.Webwood.tiles
 			AddToArray(ref TileID.Sets.RoomNeeds.CountsAsChair);
 			ModTranslation name = CreateMapEntryName();
 			name.SetDefault("Web Chair");
-			AddMapEntry(new Color(200, 200, 200), name);
+			AddMapEntry(new Color(85, 68, 57), name);
 			disableSmartCursor = true;
 			adjTiles = new int[]{ TileID.Chairs };
 		}

@@ -60,7 +60,7 @@ namespace ExoPack.Webwood.tiles
 			TileID.Sets.HasOutlines[Type] = true;
 			ModTranslation name = CreateMapEntryName();
 			name.SetDefault("Web Door");
-			AddMapEntry(new Color(200, 200, 200), name);
+			AddMapEntry(new Color(85, 68, 57), name);
 			disableSmartCursor = true;
 			adjTiles = new int[] { TileID.OpenDoor };
 			closeDoorID = mod.TileType("WebDoorClosed");
