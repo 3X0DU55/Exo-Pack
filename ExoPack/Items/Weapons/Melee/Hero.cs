@@ -14,8 +14,8 @@ namespace ExoPack.Items.Weapons.Melee
 		{
 			item.damage = 100;
 			item.melee = true;
-			item.width = 40;
-			item.height = 40;
+			item.width = 48;
+			item.height = 48;
 			item.useTime = 20;
 			item.useAnimation = 20;
 			item.useStyle = 1;
